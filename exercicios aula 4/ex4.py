@@ -1,0 +1,5 @@
+vp=float(input("digite o valor da prestação: "))
+p=float(input("digite a porcentagem no atraso: "))
+qntd=int(input("digite a quantidade de dias de atraso: "))
+prestacao=vp+(vp*(p/100)*qntd)
+print(prestacao)
